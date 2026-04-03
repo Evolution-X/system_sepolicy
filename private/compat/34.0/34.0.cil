@@ -7,6 +7,7 @@
 
 ;; types added in 24Q1
 (typeattribute hidraw_device_34_0)
+(typeattribute mosey_app_34_0)
 
 ;; mapping information from ToT policy's types to 34.0 policy's types.
 (expandtypeattribute (DockObserver_service_34_0) true)
@@ -2719,3 +2720,4 @@
 (typeattributeset zygote_exec_34_0 (zygote_exec))
 (typeattributeset zygote_socket_34_0 (zygote_socket))
 (typeattributeset zygote_tmpfs_34_0 (zygote_tmpfs))
+(typeattributeset mosey_app_34_0 (mosey_app))
