@@ -757,6 +757,7 @@
 /data/system/aiseal(/.*)?       u:object_r:aiseal_data_file:s0
 /data/system/dropbox(/.*)?      u:object_r:dropbox_data_file:s0
 /data/system/heapdump(/.*)?     u:object_r:heapdump_data_file:s0
+/data/system/app_backup_staging(/.*)? u:object_r:app_backup_staging_file:s0
 /data/misc/trace(/.*)?          u:object_r:method_trace_data_file:s0
 /data/misc/wmtrace(/.*)?        u:object_r:wm_trace_data_file:s0
 # TODO(calin) label profile reference differently so that only

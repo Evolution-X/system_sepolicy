@@ -84,6 +84,7 @@ type uprobestats_service,              service_manager_type;
 type uprobestats_bridge_service,       app_api_service, system_server_service, service_manager_type;
 type advanced_protection_service,      app_api_service, system_server_service, service_manager_type;
 type multisensory_manager_service,             app_api_service, ephemeral_app_api_service, system_server_service, service_manager_type;
+type app_data_backup_service,          system_api_service, system_server_service, service_manager_type;
 
 is_flag_enabled(RELEASE_RANGING_STACK, `
     type ranging_service, app_api_service, system_server_service, service_manager_type;
