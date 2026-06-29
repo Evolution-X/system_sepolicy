@@ -870,6 +870,7 @@
 /system/product/vendor_overlay/1/test                             vendor_file
 
 /data                                                             system_data_root_file
+/data/system/app_backup_staging/0/com.example_1700000000000.vbak app_backup_staging_file
 /data/does_not_exist                                              system_data_file
 /data/system/environ                                              environ_system_data_file
 /data/system/environ/test                                         environ_system_data_file
